@@ -3,13 +3,13 @@
 
 VTK-based python script for calculating the projected area of a STL file.
 
-It is inspired on the frontal area calculator code by Paul McIntosh
-[CalculateFrontalArea.cxx](https://github.com/internetscooter/Vespa-Labs/blob/master/VespaCFD/CalculateFrontalArea/CalculateFrontalArea.cxx)
-
+It is inspired on the frontal area calculator code [CalculateFrontalArea.cxx](https://github.com/internetscooter/Vespa-Labs/blob/master/VespaCFD/CalculateFrontalArea/CalculateFrontalArea.cxx)
+by Paul McIntosh
 
 ## How to use
 
 Import the `projectArea` module and call the function `project`.
+
 Stand-alone call to come.
 
 
@@ -45,4 +45,3 @@ You may check the validation of the algorithm in the jupyter notebook
 - Make it standalone (easy, just set the argv)
 - Set an hybrid argument for defining the vector (`x`,`y`,`z` or the projection vector)
 - Add script to produce images to illustrate the algorithm
-- Add images to the jupyter notebook
